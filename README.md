@@ -12,7 +12,14 @@
 👸 Math is my queen,
 👨 Programming since 2018.
 
-📷 [instagram]: https://instagram.com/arsive02
-👔 [linkedin]: https://linkedin.com/in/siva-kumar-5b2527190/
+📷 [instagram]👔 [linkedin]
+
+[<img align="left" alt="Arsive | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+[<img align="left" alt="Arsive | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[instagram]: https://instagram.com/codeSTACKr
+[linkedin]: https://linkedin.com/in/codeSTACKr
 
 <img align="left" alt="Arsive's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Arsive02&show_icons=true&hide_border=true" />
+
+
+<br />
