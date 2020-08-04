@@ -11,7 +11,6 @@
 👨 Programming since 2018
 🧠 Learning is fun and so am i ^_^  
 
-📺 [youtube][youtube] **|** 
 📷 [instagram][instagram] **|** 
 👔 [linkedin][linkedin]
 
