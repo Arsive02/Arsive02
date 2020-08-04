@@ -1,5 +1,5 @@
 ### Hi there 👋
-### I'm Sivakumar😁
+### I'm Sivakumar😊
 ### Nice to meet you.
 
 - 🔭 Exploring and learning new stuffs! 
