@@ -6,10 +6,11 @@
 - 💖 Math and Machines 💖  
 - (☞ﾟヮﾟ)☞ Aspiring Data scientist
 - 😄 Happy Life!
-# WHEN CURIOSITY REACHES ESCAPE VELOCITY ... 
+- 🧠 Learning is fun and so am i ^_^  
 
-👨 Programming since 2018
-🧠 Learning is fun and so am i ^_^  
+😍 Physics is my favourite,
+👸 Math is my queen,
+👨 Programming since 2018.
 
 📷 [instagram][instagram] **|** 
 👔 [linkedin][linkedin]
