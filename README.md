@@ -1,16 +1,19 @@
 ### Hi there 👋
+### I'm Sivakumar😁
+### Nice to meet you.
 
-<!--
-**Arsive02/Arsive02** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 Exploring and learning new stuffs! 
+- 💖 Math and Machines 💖  
+- (☞ﾟヮﾟ)☞ Aspiring Data scientist
+- 😄 Happy Life!
+# WHEN CURIOSITY REACHES ESCAPE VELOCITY ... 
 
-Here are some ideas to get you started:
+👨 Programming since 2018
+🧠 Learning is fun and so am i ^_^  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📺 [youtube][youtube] **|** 
+📷 [instagram][instagram] **|** 
+👔 [linkedin][linkedin]
+
+[instagram]: https://instagram.com/arsive02
+[linkedin]: https://linkedin.com/in/siva-kumar-5b2527190/
