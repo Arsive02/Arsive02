@@ -1,6 +1,6 @@
-### Hi there 👋
-### I'm Sivakumar😊
-### Nice to meet you.
+<h1> Hi there 👋 </h1>
+<h1> I'm Sivakumar😊 </h1>
+  <h2> Nice to meet you.</h2>
 
 - 🔭 Exploring and learning new stuffs! 
 - 💖 Math and Machines 💖  
@@ -11,6 +11,10 @@
 😍 Physics is my favourite,
 👸 Math is my queen,
 👨 Programming since 2018.
+
+### Programming Languages  :computer:
+<img src="https://img.icons8.com/color/60/000000/python.png"/>  <img src="https://img.icons8.com/color/60/000000/c-programming.png"/>
+|:---:|:---:|:---:|:---:|:---:|
 
 ### Connect with me :
 
