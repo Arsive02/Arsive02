@@ -21,5 +21,7 @@
 
 <img align="left" alt="Arsive's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Arsive02&show_icons=true&hide_border=true" />
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Arsive02&layout=compact) 
+
 [instagram]: https://www.instagram.com/arsive02/
 [linkedin]: https://www.linkedin.com/in/siva-kumar-5b2527190/
