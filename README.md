@@ -4,7 +4,8 @@
 
 - 🔭 Exploring and learning new stuffs! 
 - 💖 Math and Machines 💖  
-- (☞ﾟヮﾟ)☞ Aspiring Data scientist
+- 📈 Aspiring Data scientist
+- 🎓 ML Enthusiast 
 - 😄 Happy Life!
 - 🧠 Learning is fun and so am i ^_^  
 
