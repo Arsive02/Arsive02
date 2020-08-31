@@ -13,8 +13,8 @@
 👨 Programming since 2018.
 
 ### Programming Languages  :computer:
-|<img src="https://img.icons8.com/color/60/000000/python.png"/> | <img src="https://img.icons8.com/color/60/000000/c-programming.png"/> |
-|:---:|:---:|
+|<img src="https://img.icons8.com/color/60/000000/python.png"/> | <img src="https://img.icons8.com/color/60/000000/c-programming.png"/> |<img src="http://neuroplausible.com/img/posts/matlab.jpg"/>|
+|:---:|:---:|:---:|
 
 ### Web designing languages
 |<img src="https://firebasestorage.googleapis.com/v0/b/github--images.appspot.com/o/Github%20images%2Flogo-html-5.png?alt=media&token=433bba37-6049-47d4-8cb6-4498d7886ff1" width=60> | <img src="https://www.pngkit.com/png/detail/800-8001116_html-css-js-icons.png" width=60> |
