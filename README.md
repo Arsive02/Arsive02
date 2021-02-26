@@ -3,8 +3,8 @@
   <h2> Nice to meet you.</h2>
 
 - 🔭 Exploring and learning new stuffs! 
-- 💖 Math and Machines 💖  
-- 📈 Aspiring Data scientist
+- 💖 Math and Physics 💖  
+- 📈 AIoT
 - 🎓 ML Enthusiast 
 - 😄 Happy Life!
 - 🧠 Learning is fun and so am i ^_^  
