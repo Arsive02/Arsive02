@@ -4,7 +4,7 @@
 
 - 🔭 Exploring and learning new stuffs! 
 - 💖 Math and Physics 💖  
-- 📈 AIoT
+- 🤖 AIoT
 - 🎓 ML Enthusiast 
 - 😄 Happy Life!
 - 🧠 Learning is fun and so am i ^_^  
