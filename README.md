@@ -1,6 +1,4 @@
-<h1> Hi there 👋 </h1>
-<h1> I'm Sivakumar😊 </h1>
-  <h2> Nice to meet you.</h2>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inconsolata&color=%239565FF&duration=3500&multiline=true&height=70&lines=Hi%2C+I+am+Sivakumar%F0%9F%91%8B;Nice+to+meet+you!)](https://git.io/typing-svg)
 
 - 🔭 Exploring and learning new stuffs! 
 - 💖 Math and Physics 💖  
