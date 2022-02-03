@@ -1,5 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Inconsolata&color=%239565FF&duration=3500&multiline=true&height=70&lines=Hi%2C+I+am+Sivakumar%F0%9F%91%8B;Nice+to+meet+you!)](https://git.io/typing-svg)
 
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=Arsive02&label=Profile%20views&color=0e75b6&style=flat" alt="Arsive" /> </p>
 <img src="https://user-images.githubusercontent.com/55843765/150628331-5a462c5a-61d4-49f3-b171-59729f0c8656.png" width="300" height="250" align="right"/>
 
 - 🔭 Exploring and learning new stuffs! 
