@@ -6,7 +6,9 @@
 - 🔭 Exploring and learning new stuffs! 
 - 💖 Math and Science 💖  
 - 🤖 AIoT
-- 🎓 AI/DL/ML Enthusiast 
+- 📚 Specializing in NLP
+- 🎓 AI/ML/DL enthusiast
+- 🧑‍🎓 Electronics and Communication Engineer
 - 🎯 Curiosity and perseverance!
 - 🧠 Learning is fun and so am i ^_^  
 
