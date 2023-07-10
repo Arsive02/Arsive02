@@ -39,7 +39,7 @@ Programming since 2018.</i>
   <a href="https://www.hackerrank.com/e8ec138"><img src="https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white"></a>&nbsp;&nbsp;
   <a href="https://leetcode.com/sivaparkour2/"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black"></a>&nbsp;&nbsp;
   <a href="https://stackoverflow.com/users/12125576/arsive"><img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white"></a>&nbsp;&nbsp;   
-    <a href="https://www.kaggle.com/arsive02"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white"></a>&nbsp;&nbsp;   
+    <a href="https://www.kaggle.com/arsiveai"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white"></a>&nbsp;&nbsp;   
 </p>
 
 <h1 align='center'>🚀<i>Better than yesterday</i>🚀</h1>
