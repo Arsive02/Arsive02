@@ -32,7 +32,6 @@ Programming since 2018.</i>
 ### Connect with me :
 <p align='center'>
    <a href="https://www.linkedin.com/in/siva-kumar-5b2527190/"><img height="30" src="https://raw.githubusercontent.com/8bithemant/8bithemant/master/linkedin.png?raw=true"></a>&nbsp;&nbsp;
-   <a href="https://www.reddit.com/user/Arsive"><img height="30" src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white"></a>&nbsp;&nbsp;
   <a href="https://dev.to/arsive02"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"></a>&nbsp;&nbsp;
   <a href="https://discordapp.com/users/581004063412322323"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>&nbsp;&nbsp;
   <a href="https://github.com/Arsive02"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>&nbsp;&nbsp;
