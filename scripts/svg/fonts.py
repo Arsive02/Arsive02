@@ -50,7 +50,35 @@ def _arrow(x, y, size, adv):
             f"L{ntos(x1 - h * 0.9)} {ntos(m + h)}V{ntos(m + t)}H{ntos(x0)}Z")
 
 
+def _integral(x, y, size, adv):
+    # ∫ as a filled stroke: top hook arc -> slanted stem -> bottom hook arc, thick in the middle
+    pts = []
+    for i in range(10):  # top hook, from its tip back to the stem
+        a = math.radians(-35 + 215 * i / 9)
+        pts.append((0.56 + 0.10 * math.cos(a), 0.74 + 0.10 * math.sin(a)))
+    for i in range(1, 12):
+        t = i / 12
+        pts.append((0.46 + (0.30 - 0.46) * t, 0.74 + (-0.06 - 0.74) * t))
+    for i in range(10):  # bottom hook
+        a = math.radians(0 - 215 * i / 9)
+        pts.append((0.20 + 0.10 * math.cos(a), -0.06 + 0.10 * math.sin(a)))
+    n = len(pts)
+    left, right = [], []
+    for i, (px, py) in enumerate(pts):
+        ax, ay = pts[max(0, i - 1)]
+        bx, by = pts[min(n - 1, i + 1)]
+        tx, ty = bx - ax, by - ay
+        ln = math.hypot(tx, ty) or 1
+        nx, ny = -ty / ln, tx / ln
+        w = 0.012 + 0.036 * math.sin(math.pi * i / (n - 1)) ** 1.5
+        left.append((px + nx * w, py + ny * w))
+        right.append((px - nx * w, py - ny * w))
+    poly = left + right[::-1]
+    return "M" + " L".join(f"{ntos(x + px * size)} {ntos(y - py * size)}" for px, py in poly) + "Z"
+
+
 CUSTOM = {
+    "∫": (0.72, _integral),
     "⟩": (0.52, lambda x, y, s, a: _chevron(True, x, y, s, a)),
     "⟨": (0.52, lambda x, y, s, a: _chevron(False, x, y, s, a)),
     "→": (0.9, _arrow),

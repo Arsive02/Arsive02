@@ -52,7 +52,8 @@ def ease(t):
 def hero(p):
     W, H = 1200, 420
     rnd = random.Random(7)
-    CYC = 12  # seconds; settle, hold, dissolve, retrain
+    CYC = 9  # seconds; fast settle (~1.6s), long hold, dissolve, retrain
+    SETTLE = 0.18
     b = card(W, H, p)
     b += EYEBROW.path("SENIOR APPLIED AI ENGINEER · RICOH", 13, 56, 66, attrs=f'fill="{p["acc"]}"')
     b += EYEBROW.path("BOULDER, CO · 40.01°N 105.27°W", 13, W - 56, 66, "end", attrs=f'fill="{p["muted"]}"')
@@ -73,17 +74,16 @@ def hero(p):
         if g["ch"] == " ":
             continue
         dx, dy = rnd.uniform(-260, 260), rnd.uniform(-150, 150)
-        r = rnd.uniform(-40, 40)
-        delay = 0.035 * i
-        letters += (f'<g class="L" style="--dx:{f2(dx)}px;--dy:{f2(dy)}px;--r:{f2(r)}deg;animation-delay:{f2(delay)}s">'
+        delay = 0.02 * i
+        letters += (f'<g class="L" style="--dx:{f2(dx)}px;--dy:{f2(dy)}px;animation-delay:{f2(delay)}s">'
                     f'<path fill="{col}" d="{g["d"]}"/></g>')
-        for _ in range(6):
+        for _ in range(2):
             tx = g["x"] + rnd.uniform(0.1, 0.9) * g["adv"]
             ty = base - rnd.uniform(0.05, 0.7) * size
             sx, sy = tx + rnd.uniform(-420, 420), ty + rnd.uniform(-170, 170)
             sx, sy = min(max(sx, 20), W - 20), min(max(sy, 90), H - 30)
             dots += (f'<circle class="P" cx="{f2(sx)}" cy="{f2(sy)}" r="{f2(rnd.uniform(1, 2.1))}" fill="{p["acc"]}" '
-                     f'style="--tx:{f2(tx - sx)}px;--ty:{f2(ty - sy)}px;animation-delay:{f2(delay + rnd.uniform(0, .3))}s"/>')
+                     f'style="--tx:{f2(tx - sx)}px;--ty:{f2(ty - sy)}px;animation-delay:{f2(delay + rnd.uniform(0, .15))}s"/>')
     b += f'<g clip-path="url(#cardclip)">{dots}</g>{letters}'
 
     # readout with ticking epoch / loss
@@ -98,17 +98,16 @@ def hero(p):
     b += MONO.path(mid, 14, xn + MONO.width("000", 14), ry, attrs=f'fill="{p["muted"]}"')
     b += MONO.path(" · optim SGD · β 0.9 · momentum", 14, xl + MONO.width("0.0000", 14), ry, attrs=f'fill="{p["muted"]}"')
     N = 10
-    settle = 0.40
+    settle = SETTLE
     for f in range(N + 1):
         ep = f * 20
         loss = 2.3026 * math.exp(-0.42 * f) + 0.0123
         t0 = settle * f / N
         t1 = settle * (f + 1) / N
         if f == 0:
-            vals, kt = "1;0;1", f"0;{f2(settle / N * 1000 / 1000)};0.9"
-            kt = f"0;{settle / N:.3f};0.900"
+            vals, kt = "1;0;1", f"0;{settle / N:.3f};0.880"
         elif f == N:
-            vals, kt = "0;1;0", f"0;{settle:.3f};0.900"
+            vals, kt = "0;1;0", f"0;{settle:.3f};0.880"
         else:
             vals, kt = "0;1;0", f"0;{t0:.3f};{t1:.3f}"
         anim = f'<animate attributeName="opacity" values="{vals}" keyTimes="{kt}" dur="{CYC}s" calcMode="discrete" repeatCount="indefinite"/>'
@@ -135,26 +134,27 @@ def hero(p):
           f'<circle r="3.6" fill="{p["acc"]}"><animateMotion dur="4s" repeatCount="indefinite" calcMode="linear">'
           f'<mpath href="#sine"/></animateMotion></circle>')
 
+    # translate + opacity only (no fill-box rotate/scale): far cheaper to repaint in an <img> SVG
     st = f"""
-.L{{transform-box:fill-box;transform-origin:center;animation:settle {CYC}s cubic-bezier(.16,.84,.24,1) infinite both}}
+.L{{animation:settle {CYC}s cubic-bezier(.16,.84,.24,1) infinite both}}
 @keyframes settle{{
-0%{{transform:translate(var(--dx),var(--dy)) rotate(var(--r)) scale(.6);opacity:0}}
-6%{{opacity:.35}}
-30%{{transform:translate(calc(var(--dx)*-.035),calc(var(--dy)*-.035)) rotate(0) scale(1);opacity:1}}
-40%{{transform:none;opacity:1}}
-86%{{transform:none;opacity:1;animation-timing-function:cubic-bezier(.6,0,.9,.4)}}
-100%{{transform:translate(var(--dx),var(--dy)) rotate(var(--r)) scale(.6);opacity:0}}}}
+0%{{transform:translate(var(--dx),var(--dy));opacity:0}}
+3%{{opacity:.4}}
+13%{{transform:translate(calc(var(--dx)*-.03),calc(var(--dy)*-.03));opacity:1}}
+18%{{transform:none;opacity:1}}
+88%{{transform:none;opacity:1;animation-timing-function:cubic-bezier(.6,0,.9,.4)}}
+100%{{transform:translate(var(--dx),var(--dy));opacity:0}}}}
 .P{{animation:fly {CYC}s cubic-bezier(.16,.84,.24,1) infinite both}}
 @keyframes fly{{
 0%{{transform:none;opacity:0}}
-5%{{opacity:.9}}
-30%{{transform:translate(var(--tx),var(--ty));opacity:.9}}
-38%{{transform:translate(var(--tx),var(--ty));opacity:0}}
-88%{{transform:translate(var(--tx),var(--ty));opacity:0;animation-timing-function:cubic-bezier(.6,0,.9,.4)}}
-92%{{opacity:.7}}
+3%{{opacity:.9}}
+13%{{transform:translate(var(--tx),var(--ty));opacity:.9}}
+18%{{transform:translate(var(--tx),var(--ty));opacity:0}}
+90%{{transform:translate(var(--tx),var(--ty));opacity:0;animation-timing-function:cubic-bezier(.6,0,.9,.4)}}
+93%{{opacity:.7}}
 100%{{transform:none;opacity:0}}}}
 .loss{{animation:draw {CYC}s linear infinite both}}
-@keyframes draw{{0%{{stroke-dashoffset:var(--L)}}40%,88%{{stroke-dashoffset:0}}100%{{stroke-dashoffset:var(--L)}}}}
+@keyframes draw{{0%{{stroke-dashoffset:var(--L)}}18%,88%{{stroke-dashoffset:0}}100%{{stroke-dashoffset:var(--L)}}}}
 """
     return svg(W, H, b, st, "Sivakumar Ramakrishnan — Senior Applied AI Engineer at Ricoh")
 
@@ -602,8 +602,7 @@ HEADINGS = {
     "03": ("03 / EXPERIENCE", [("A walk on the ", 0), ("Bloch", 1), (" sphere.", 0)]),
     "04": ("04 / SKILLS", [("What attends to ", 0), ("what", 1), ("?", 0)]),
     "05": ("05 / HONOURS", [("Relaxed into ", 0), ("place", 1), (".", 0)]),
-    "06": ("06 / OFF THE CLOCK", [("The rest of the ", 0), ("signal", 1), (".", 0)]),
-    "07": ("07 / ACTIVITY", [("Commits, ", 0), ("integrated", 1), (" over time.", 0)]),
+    "06": ("06 / ACTIVITY", [("Commits, ", 0), ("integrated", 1), (" over time.", 0)]),
 }
 
 
@@ -678,8 +677,8 @@ def contact(p):
     b += f'<path d="{fs[0][2]}" fill="none" stroke="{p["fg"]}" stroke-opacity=".18" stroke-dasharray="2 4">{anim(2)}</path>'
     b += f'<path d="{fs[0][1]}" fill="none" stroke="{p["acc"]}" stroke-width="2" stroke-linejoin="round">{anim(1)}</path>'
 
-    b += EYEBROW.path("08", 13, 64, 84, attrs=f'fill="{p["acc"]}"')
-    b += EYEBROW.path("/ CONTACT", 13, 64 + EYEBROW.width("08 ", 13), 84, attrs=f'fill="{p["muted"]}"')
+    b += EYEBROW.path("07", 13, 64, 84, attrs=f'fill="{p["acc"]}"')
+    b += EYEBROW.path("/ CONTACT", 13, 64 + EYEBROW.width("07 ", 13), 84, attrs=f'fill="{p["muted"]}"')
     b += SERIF.path("Let's build something", 60, 64, 168, attrs=f'fill="{p["fg"]}"')
     b += ITALIC.path("non-trivial.", 60, 64, 236, attrs=f'fill="{p["acc"]}"')
     b += ITALIC.path("One-sided surface, two-sided conversation.", 24, 64, 290, attrs=f'fill="{p["muted"]}"')

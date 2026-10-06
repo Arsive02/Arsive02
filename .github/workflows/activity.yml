@@ -1,0 +1,41 @@
+name: activity integral
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ["scripts/**", ".github/workflows/activity.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install fonts + fonttools
+        run: |
+          pip install fonttools brotli
+          npm install --no-save --prefix "$RUNNER_TEMP/fonts" @fontsource/instrument-serif @fontsource-variable/jetbrains-mono
+
+      - name: Render ∫ c(t) dt
+        run: python scripts/activity/activity.py "${{ github.repository_owner }}" dist
+        env:
+          FONT_NODE_MODULES: ${{ runner.temp }}/fonts/node_modules
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

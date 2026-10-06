@@ -225,40 +225,17 @@ motto:     "Physics is my favourite, math is my queen."
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/h06-dark.svg">
-  <img src="assets/h06-light.svg" width="100%" alt="06 / Off the clock — The rest of the signal.">
-</picture>
-
-| 🪈 Flute | ♞ Chess | 🥊 Boxing | ⛩️ Japanese |
-|:--|:--|:--|:--|
-| A bamboo flute and a lot of patience. <sub>venu · 8 holes · bamboo</sub> | The path to some title :) Past 1000 Elo, working from the 1200 plateau toward 1400. [lichess](https://lichess.org/@/Arsive02) · [chess.com](https://www.chess.com/member/arsive) | Physical combat class. | One kana at a time. Passed JLPT N5. |
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
-  <img src="assets/divider-light.svg" width="100%" alt="">
+  <img src="assets/h06-light.svg" width="100%" alt="06 / Activity — Commits, integrated over time.">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/h07-dark.svg">
-  <img src="assets/h07-light.svg" width="100%" alt="07 / Activity — Commits, integrated over time.">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arsive02/Arsive02/output/activity-dark.svg">
+  <img src="https://raw.githubusercontent.com/Arsive02/Arsive02/output/activity-light.svg" width="100%" alt="All-time GitHub contributions as a Riemann sum of monthly bars, with the running integral and a Fourier low-pass curve">
 </picture>
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arsive02/Arsive02/output/snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/Arsive02/Arsive02/output/snake-light.svg" width="100%" alt="Contribution graph being eaten by a snake">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Arsive02&hide_border=true&background=0e0d0b&stroke=2a2823&ring=2dd4bf&fire=2dd4bf&currStreakLabel=2dd4bf&sideLabels=9b958a&currStreakNum=ede8de&sideNums=ede8de&dates=9b958a">
-  <img src="https://streak-stats.demolab.com/?user=Arsive02&hide_border=true&background=f2eee6&stroke=d8d2c6&ring=0f766e&fire=0f766e&currStreakLabel=0f766e&sideLabels=6b665c&currStreakNum=16140f&sideNums=16140f&dates=6b665c" width="560" alt="GitHub streak stats">
-</picture>
-
-</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg">
-  <img src="assets/contact-light.svg" width="100%" alt="08 / Contact — Let's build something non-trivial. One-sided surface, two-sided conversation.">
+  <img src="assets/contact-light.svg" width="100%" alt="07 / Contact — Let's build something non-trivial. One-sided surface, two-sided conversation.">
 </picture>
 
 <div align="center">
