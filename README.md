@@ -1,211 +1,278 @@
 <div align="center">
 
-```text
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Sivakumar Ramakrishnan — Senior Applied AI Engineer at Ricoh. Decoding chaos into elegant equations.">
+</picture>
 
-  ┌─────────────────────────────────────────────────────────────────────┐
-  │               ___ _          _                                      │
-  │              / __(_)_ ____ _| |___  _ _ __  __ _ _ _                │
-  │              \__ \ \ V / _` | / / || | '  \/ _` | '_|               │
-  │              |___/_|\_/\__,_|_\_\\_,_|_|_|_\__,_|_|                 │
-  │                                                                     |
-  │               Decoding chaos into elegant equations.                │
-  │                                                                     │
-  └─────────────────────────────────────────────────────────────────────┘
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/ket-dark.svg">
+  <img src="assets/ket-light.svg" width="100%" alt="|me⟩ = α|AI engineer⟩ + β|musician⟩ + γ|chess player⟩">
+</picture>
 
-```
+<a href="https://sivakumar-portfolio-omega.vercel.app/"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2800&pause=900&color=14B8A6&center=true&vCenter=true&width=620&height=30&lines=Claude-powered+multi-agent+systems;RAG+%C2%B7+LLM+evaluation+%C2%B7+tool+calling;NLP+%C2%B7+Computer+Vision+%C2%B7+Multimodal+AI;Quantum+computing%2C+one+qubit+at+a+time;Decoding+chaos+into+elegant+equations." alt="Typing SVG" /></a>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=A1A1A6&center=true&vCenter=true&repeat=true&width=500&height=35&lines=Data+Scientist+|+AI+Engineer;Better+than+yesterday.)](https://git.io/typing-svg)
-
-<img src="https://komarev.com/ghpvc/?username=Arsive02&label=visitors&color=6e6e73&style=flat-square" alt="profile views" />
+<a href="https://sivakumar-portfolio-omega.vercel.app/"><img src="https://img.shields.io/badge/portfolio-sivakumar--portfolio-0e0d0b?style=flat-square&labelColor=0e0d0b&color=14b8a6" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/siva-math/"><img src="https://img.shields.io/badge/LinkedIn-siva--math-0e0d0b?style=flat-square&logo=linkedin&logoColor=2dd4bf&labelColor=0e0d0b&color=14b8a6" alt="LinkedIn"></a>
+<a href="https://huggingface.co/Arsive"><img src="https://img.shields.io/badge/Hugging_Face-Arsive-0e0d0b?style=flat-square&logo=huggingface&logoColor=2dd4bf&labelColor=0e0d0b&color=14b8a6" alt="Hugging Face"></a>
+<img src="https://komarev.com/ghpvc/?username=Arsive02&label=observations&color=14b8a6&style=flat-square" alt="profile views" />
 
 </div>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
 
-<img src="https://user-images.githubusercontent.com/55843765/150628331-5a462c5a-61d4-49f3-b171-59729f0c8656.png" width="280" height="230" align="right"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h01-dark.svg">
+  <img src="assets/h01-light.svg" width="100%" alt="01 / About — I like the math underneath the model.">
+</picture>
 
-### `> whoami`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/fourier-dark.svg">
+  <img src="assets/fourier-light.svg" width="290" align="right" alt="Fourier epicycles drawing the letter S">
+</picture>
+
+I am an applied AI engineer who ships agentic systems end to end, from AWS backends and SQL data models to Claude-powered multi-agent workflows that turn days of manual work into minutes. Before Ricoh I spent two years at ZOHO building a RAG system that handles 10K+ queries a day, and I finished my MS in Data Science at CU Boulder with a 4.0. I enjoy the math behind these systems as much as the products themselves.
 
 ```yaml
-name: Sivakumar Ramakrishnan
-role: Applied AI Engineer @ Ricoh USA
-education: MS Data Science, CU Boulder (4.0 GPA)
-location: Boulder, Colorado
-motto: "Passionately curious. Relentlessly learning"
+name:      Sivakumar Ramakrishnan
+role:      Senior Applied AI Engineer @ Ricoh
+focus:     [multi-agent systems, RAG, LLM eval, NLP, vision, multimodal, quantum]
+education:
+  - M.S. Data Science, CU Boulder           # 2024–2026 · GPA 4.00
+  - B.E. Electronics & Comm., Sri Sai Ram   # 2018–2022 · GPA 3.65
+location:  Boulder, Colorado
+motto:     "Physics is my favourite, math is my queen."
 ```
 
-- Building **Agentic AI** solutions for service documentation at Ricoh
-- Architected RAG systems serving **millions of users** at Zoho
-- Published models on **HuggingFace** (toxicity classifier, invoice parser)
-- **Kaggle competition winner** (1st place - Goodreads prediction)
-- Research in quantum computing, edge AI, and multimodal systems
+- 🧠 Shipped a **Claude-powered multi-agent platform** at Ricoh: an orchestrator routes each request to a Data Analyst or Service agent
+- ⚡ Cut **60 hours of manual work to 40 minutes** with an agentic UI-snapshot harness (130 screens × 7 languages)
+- 🔎 Built **RAG at 10K+ queries/day** at ZOHO, with **−20% latency** and **−35% hallucinations**
+- 🏆 **1st place on Kaggle** (Goodreads rating prediction, framed as text generation with T5)
 
 <br clear="right"/>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
 
-### `> cat skills.txt`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h02-dark.svg">
+  <img src="assets/h02-light.svg" width="100%" alt="02 / Selected work — Everything connects back to math.">
+</picture>
 
-<details>
-<summary><b>AI & Machine Learning</b></summary>
-<br>
-
-| Domain | Technologies |
-|:---|:---|
-| **Deep Learning** | PyTorch, TensorFlow, JAX, Transformers, VLLM |
-| **NLP** | RAG, RLHF/DPO, Seq2Seq, Attention, spaCy, Whisper |
-| **Computer Vision** | CNNs, ViT, EfficientNet, YOLO, CLIP, OpenCV |
-| **Multimodal AI** | PaLiGemma, TimeSformer, Cross-modal retrieval |
-| **MLOps** | Weights & Biases, Ray, Streamlit, HuggingFace Hub |
-
-</details>
-
-<details>
-<summary><b>Languages & Tools</b></summary>
-<br>
-
-| | | | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white) | ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white) | ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) | ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white) | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
-| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
-
-</details>
-
----
-
-### `> tree ~/projects/`
-
-```text
-~/projects/
-├── zoho/
-│   ├── rag-architecture            Multi-modal RAG system, millions of users
-│   ├── mamba-transformer           Mamba SSM + Transformer hybrid architecture
-│   ├── invoice-to-json             PaLiGemma fine-tune, 88% extraction accuracy
-│   ├── multimodal-ai               Speech + text + image + video processing
-│   ├── rlhf-dpo                    Direct Preference Optimization research
-│   └── resume-parser               OCR + ML multi-format resume parsing
-├── cu-boulder/
-│   ├── kl-divergence               Statistical bridge with real-time viz
-│   └── stellar-mapping             CNN + ViT constellation detection
-├── research/
-│   ├── edge-aiot-inspection        Microchip defect detection, 98% accuracy
-│   └── autonomous-vehicle          AGV with YOLOv4 on Jetson Nano
-└── open-source/
-    ├── roberta-toxicity            Multi-label toxicity classifier
-    └── goodreads-prediction        1st place Kaggle, T5 generative model
-
-4 directories, 12 projects
-```
+| | Project | The math underneath | What it does | Stack |
+|:-:|:--|:--|:--|:--|
+| 🤖 | **Agentic Service Platform**<br><sub>Ricoh · 2025 → now</sub> | $`a^{*} = \arg\max_{i}\; p(\text{agent}_i \mid q)`$ | A Claude-powered multi-agent platform. An orchestrator routes each request to a Data Analyst agent or a Service agent that helps field technicians fix printers, with images for repair steps. | `Claude` `AWS Lambda` `DynamoDB` `Aurora SQL` |
+| 📄 | **Document Pipeline on Ray**<br><sub>Ricoh · 2026</sub> | $`S(n) = \frac{1}{(1-p) + p/n}`$ | A parallel ingestion pipeline on Ray that processes thousands of documents in under an hour. | `Python` `Ray` `S3` |
+| 🌐 | **Localized UI Snapshot Harness**<br><sub>Ricoh · 2026</sub> | $`130 \times 7 \to 900^{+}`$ | An agentic harness that captures 130 app screens in each of 7 languages, turning 60 hours of manual work into 40 minutes. | `Claude` `Python` `UI automation` |
+| 🔎 | **RAG at Scale**<br><sub>ZOHO · 2023–24</sub> | $`p(y\mid x)=\sum_{z\in\text{top-}k} p_\eta(z\mid x)\,p_\theta(y\mid x,z)`$ | A RAG system on vLLM handling 10K+ queries a day. Hybrid retrieval with reranker fusion cut latency by 20% and hallucinations by 35%. | `vLLM` `PyTorch` `FastAPI` `Redis` `PostgreSQL` |
+| 📐 | **KL Divergence: A Statistical Bridge**<br><sub>CU Boulder · 2024</sub><br>[code](https://github.com/Arsive02/KL_divergence_statistics) · [demo](https://kl-divergence-statistics.vercel.app) | $`D_{\mathrm{KL}}(P \Vert Q)=\sum_x P(x)\log\frac{P(x)}{Q(x)}`$ | Showing with real models that maximum likelihood and KL minimisation are the same thing. Logistic regression, random forests, neural nets and VAEs, all visualised live. | `PyTorch` `scikit-learn` `React` |
+| ✨ | **Stellar Mapping**<br><sub>CU Boulder · 2024</sub><br>[code](https://github.com/rahul7310/stellar_mapping) · [demo](https://stellarmapping.vercel.app/) | $`A\mathbf{v} = \lambda \mathbf{v}`$ | Finding constellations in night-sky photos with an ensemble of a CNN, a Vision Transformer and EfficientNet. It holds up under light pollution and rotation. | `PyTorch` `ViT` `EfficientNet` |
+| 🐍 | **Mamba × Transformer Hybrid**<br><sub>ZOHO · 2024</sub> | $`h_t=\bar A h_{t-1}+\bar B x_t,\; y_t=C h_t`$ | Mamba handles long-range memory and attention handles focus. I tried running them side by side, one after the other, and with a learned switch between them. | `PyTorch` `Mamba SSM` `JAX` `W&B` |
+| 🏆 | **Goodreads Rating Prediction: 1st place**<br><sub>Kaggle · 2023</sub><br>[code](https://github.com/Arsive02/Goodreads_Books_Review_Rating_Prediction) · [board](https://www.kaggle.com/competitions/goodreads-books-reviews-290312/leaderboard) | $`H(X) = -\sum p \log p`$ | Won a Kaggle competition by treating rating prediction as a text generation problem. A fine-tuned T5 reached 0.70 mean F1. | `T5` `Transformers` `PyTorch` |
 
 <details>
-<summary><b>Zoho</b> &mdash; 6 projects (click to expand)</summary>
+<summary><b>More from the archive</b>: 7 projects</summary>
 <br>
 
 | Project | What it does | Links | Stack |
-|:---|:---|:---:|:---|
-| **RAG Architecture** | Advanced retrieval-augmented generation with hybrid search (5ms latency), multi-modal input, reduced hallucinations. Scaled to millions of users. | — | `Python` `VLLM` `PyTorch` `FastAPI` `Redis` `PostgreSQL` |
-| **Mamba-Transformer Hybrid** | Novel architecture combining Mamba's selective state space models with Transformer attention for enhanced sequence modeling. Includes ablation studies. | — | `Python` `PyTorch` `Mamba SSM` `JAX` `Wandb` |
-| **Invoice Image to JSON** | Fine-tuned PaLiGemma for structured data extraction from invoice images. Auto JSON schema validation and correction. | [HF](https://huggingface.co/Arsive/paligemma-img-to-json) | `Python` `PaLiGemma` `Transformers` `FastAPI` |
-| **Multimodal AI System** | Integrated speech, text, image & video processing. Meeting summarization, video scene understanding, cross-modal search & retrieval. | — | `Python` `PyTorch` `Whisper` `CLIP` `TimeSformer` |
-| **RLHF with DPO** | Research exploring Direct Preference Optimization for RLHF. Comparative study with traditional approaches and advanced preference learning. | — | `Python` `PyTorch` `Transformers` `Wandb` `Ray` |
-| **Resume Parser** | Multi-format resume parsing (PDF, DOC, images) with OCR, intelligent section recognition, date normalization, and entity extraction. | — | `Python` `Tesseract` `spaCy` `TensorFlow` `Flask` |
+|:--|:--|:-:|:--|
+| **Invoice → JSON with PaliGemma** | A fine-tuned PaliGemma that reads invoices in 200+ layouts and returns clean, validated JSON, with 88% of fields correct. | [🤗 model](https://huggingface.co/Arsive/paligemma-img-to-json) | `PaliGemma` `PyTorch` `FastAPI` |
+| **RLHF with DPO** | Compares Direct Preference Optimisation with classic RLHF on a real RAG system, looking at training stability, convergence speed and answer quality. | — | `Transformers` `Ray` `W&B` |
+| **RoBERTa Toxicity Classifier** | Flags hate, obscenity, threats and insults in text, tuned to avoid false alarms in real moderation work. | [🤗 model](https://huggingface.co/Arsive/roberta-toxicity-classifier) | `PyTorch` `Hugging Face` |
+| **Resume Parser with OCR** | An OCR + NER pipeline that extracts and normalises entities and ambiguous dates from any resume format. | — | `Surya OCR` `spaCy` `Flask` |
+| **Multimodal AI System** | Speech, text, images and video in one system, used for meeting summaries, scene detection and search across formats. | — | `Whisper` `CLIP` `TimeSformer` |
+| **Edge AIoT Inspection** | A full-stack inspection system that spots defective microchips in real time with 92% accuracy. | [video](https://www.youtube.com/watch?v=mOJEEJ-eYmM) | `TensorFlow` `OpenCV` `DynamoDB` `Raspberry Pi` |
+| **Autonomous Ground Vehicle** | A small robot that follows lanes, dodges obstacles with YOLOv4 and plans its own path on a Jetson Nano. | [code](https://github.com/Balaji-th/Autonomous_Vehicle) · [video](https://youtu.be/48irckF3vA0) | `YOLOv4` `ROS` `Jetson Nano` |
+
+</details>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h03-dark.svg">
+  <img src="assets/h03-light.svg" width="100%" alt="03 / Experience — A walk on the Bloch sphere.">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/bloch-dark.svg">
+  <img src="assets/bloch-light.svg" width="100%" alt="Experience timeline drawn as a state vector moving across a Bloch sphere">
+</picture>
+
+<details open>
+<summary><b>Senior Applied AI Engineer · Ricoh</b> <sub>May 2026 → present · USA</sub></summary>
+
+- Architected and shipped a **Claude-powered multi-agent platform**: an orchestrator routes each request to a Data Analyst agent or a Service agent that pulls maintenance documentation to help field technicians fix printers
+- Added **image support** to the Service agent, so repair steps come with the matching procedural illustrations
+- Built a **document pipeline on Ray** that processes thousands of documents in under an hour
+- Automated localized UI screenshots with an **agentic harness**: 130 screens × 7 languages (900+ images), cutting **60 hours to 40 minutes**
 
 </details>
 
 <details>
-<summary><b>CU Boulder</b> &mdash; 2 projects</summary>
-<br>
+<summary><b>Applied AI Engineer (Intern) · Ricoh</b> <sub>May 2025 – Apr 2026</sub></summary>
 
-| Project | What it does | Links | Stack |
-|:---|:---|:---:|:---|
-| **KL Divergence: A Statistical Bridge** | Empirical investigation of KL divergence through binary classification with real-time visualization, VAE latent space exploration. | [Code](https://github.com/Arsive02/KL_divergence_statistics) · [Demo](https://kl-divergence-statistics.vercel.app) | `Python` `PyTorch` `React` `Scikit-learn` `TensorFlow` |
-| **Stellar Mapping** | Deep learning system for automated constellation detection using CNN, Vision Transformer & EfficientNet ensemble across varying conditions. | [Code](https://github.com/rahul7310/stellar_mapping) · [Demo](https://stellarmapping.vercel.app/) | `Python` `PyTorch` `CNNs` `ViT` `EfficientNet` |
+- Led the first deployment of the Service agent, with human feedback loops, conversational memory, and tool calls to JIRA and Redmine through AWS connectors
+- Designed the shared AWS foundation (Lambda, DynamoDB, S3, Aurora SQL) that later agents are built on
 
 </details>
 
 <details>
-<summary><b>Research</b> &mdash; 2 projects</summary>
-<br>
+<summary><b>Research Assistant · University of Colorado Boulder</b> <sub>Sep – Oct 2024</sub></summary>
 
-| Project | What it does | Links | Stack |
-|:---|:---|:---:|:---|
-| **Edge AIoT for Product Inspection** | CNN & SVM models for defective microchip identification with 98% accuracy. Cloud-based monitoring with automated reporting. | [Demo](https://www.youtube.com/watch?v=mOJEEJ-eYmM) | `Python` `TensorFlow` `AWS DynamoDB` `Flask` `Raspberry Pi` |
-| **Autonomous Ground Vehicle** | AGV bot with real-time lane & object detection, autonomous navigation using Raspberry Pi, Jetson Nano, and YOLOv4. | [Code](https://github.com/Balaji-th/Autonomous_Vehicle) · [Demo](https://youtu.be/48irckF3vA0) | `Python` `YOLOv4` `ROS` `OpenCV` `Jetson Nano` |
+- Deep-learning architectures optimised for edge devices, and depth mapping for aerial imagery ([research areas](https://praisecu.github.io/research-areas))
 
 </details>
 
 <details>
-<summary><b>Open Source & Competitions</b> &mdash; 2 projects</summary>
-<br>
+<summary><b>Data Scientist, R&amp;D · ZOHO</b> <sub>May 2022 – Jul 2024 · Chennai (trainee and intern from 2021)</sub></summary>
 
-| Project | What it does | Links | Stack |
-|:---|:---|:---:|:---|
-| **RoBERTa Toxicity Classifier** | Multi-label toxicity detection fine-tuned on RoBERTa for real-time content classification across multiple categories. | [HF](https://huggingface.co/Arsive/roberta-toxicity-classifier) | `Python` `PyTorch` `Transformers` `HuggingFace` |
-| **Goodreads Rating Prediction** | 1st place Kaggle solution using fine-tuned T5 generative model for book review rating prediction. State-of-the-art accuracy. | [Code](https://github.com/Arsive02/Goodreads_Books_Review_Rating_Prediction) · [Board](https://www.kaggle.com/competitions/goodreads-books-reviews-290312/leaderboard) | `Python` `PyTorch` `T5` `Pandas` `Scikit-learn` |
+- Architected a **RAG system serving 10K+ queries a day**, cutting response latency by 20% and hallucinations by 35% with hybrid retriever and reranker fusion on vLLM
+- Built customer-assistance AI with PyTorch and Transformers: phishing detection at 90% accuracy and a resume parser handling 2K+ resumes a month
+- Generative features for FAQ generation, reply drafting and summarisation; foundational multimodal research; mentored interns into full-time hires
 
 </details>
 
----
+<details>
+<summary><b>Beyond the job</b></summary>
 
-### `> cat stats.log`
+- **President, Indian Classical Music Society, CU Boulder** (Dec 2024 → present): founded the first recognised society for Indian classical music at CU Boulder and grew it from 3 to 20+ members
+- **Student Research Lead, Team LMES** (2019–2022): autonomous ground vehicle with lane and object detection on a Raspberry Pi and Jetson Nano
+- **Intern, Siemens Healthineers** (2021): prototyped a CNN to flag abnormal CT scans for faster radiologist review
 
-<div align="center">
-  
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Arsive02&theme=github_dark" />
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Arsive02&theme=github_dark" />
+</details>
 
-<img src="https://streak-stats.demolab.com/?user=Arsive02&hide_border=true&background=0d1117&stroke=2d2d2d&ring=a1a1a6&fire=d2d2d7&currStreakLabel=d2d2d7&sideLabels=86868b&currStreakNum=f5f5f7&sideNums=a1a1a6&dates=6e6e73" width="500" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h04-dark.svg">
+  <img src="assets/h04-light.svg" width="100%" alt="04 / Skills — What attends to what?">
+</picture>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/attention-dark.svg">
+  <img src="assets/attention-light.svg" width="100%" alt="Skills drawn as a self-attention matrix whose temperature anneals from 4 to 0.08">
+</picture>
 
-### `> neofetch`
-
-```text
-  ____________________        sivakumar@boulder
- |  ________________  |       -----------------
- | |  MS Data Sci   | |       OS:       Life v24
- | |  CU Boulder    | |       Role:     Applied AI Engineer @ Ricoh
- | |  GPA: 4.00     | |       Prev:     Data Scientist @ Zoho
- | |________________| |       Langs:    Python, Java, TypeScript, R, SQL
- |  __ __ __ __ __ __ |       ML:       RAG, NLP, CV, Multimodal, RL
- | |__|__|__|__|__|__||       Infra:    AWS, FastAPI, PostgreSQL, Docker
- | |__|__|__|__|__|__||       Models:   100M+ params trained
- |____________________|       Hobbies:  Chess, Flute, Boxing
-    _|____________|_          Reads:    Goodfellow, Jurafsky, Strang
-   / ______________ \         
-  / /              \ \                  
- /_/                \_\
-```
-
----
-
-### `> echo $CONNECT`
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/marquee-dark.svg">
+  <img src="assets/marquee-light.svg" width="100%" alt="Claude · Claude Code · Multi-agent · RAG · vLLM · PyTorch · Ray · AWS · Python · SQL · …">
+</picture>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siva-math/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sivakumar-portfolio-omega.vercel.app/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/arsiveai)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Arsive)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/sivaparkour2/)
-[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/arsive02)
-[![Stack Overflow](https://img.shields.io/badge/StackOverflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/users/12125576/arsive)
+![Python](https://img.shields.io/badge/Python-0e0d0b?style=for-the-badge&logo=python&logoColor=2dd4bf)
+![PyTorch](https://img.shields.io/badge/PyTorch-0e0d0b?style=for-the-badge&logo=pytorch&logoColor=2dd4bf)
+![Claude](https://img.shields.io/badge/Claude-0e0d0b?style=for-the-badge&logo=claude&logoColor=2dd4bf)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-0e0d0b?style=for-the-badge&logo=huggingface&logoColor=2dd4bf)
+![AWS](https://img.shields.io/badge/AWS-0e0d0b?style=for-the-badge&logo=amazonwebservices&logoColor=2dd4bf)
+![Ray](https://img.shields.io/badge/Ray-0e0d0b?style=for-the-badge&logo=ray&logoColor=2dd4bf)
+![FastAPI](https://img.shields.io/badge/FastAPI-0e0d0b?style=for-the-badge&logo=fastapi&logoColor=2dd4bf)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0e0d0b?style=for-the-badge&logo=postgresql&logoColor=2dd4bf)
+![Docker](https://img.shields.io/badge/Docker-0e0d0b?style=for-the-badge&logo=docker&logoColor=2dd4bf)
+![React](https://img.shields.io/badge/React-0e0d0b?style=for-the-badge&logo=react&logoColor=2dd4bf)
 
 </div>
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h05-dark.svg">
+  <img src="assets/h05-light.svg" width="100%" alt="05 / Honours — Relaxed into place.">
+</picture>
+
+| | Award | Where | Year |
+|:-:|:--|:--|:-:|
+| 🥇 | **1st place**, Kaggle Goodreads rating prediction · [leaderboard](https://www.kaggle.com/competitions/goodreads-books-reviews-290312/leaderboard) | Kaggle | 2023 |
+| 🥈 | **2nd place**, National Mathematics Conference | SRM Institute of Science and Technology | 2018 |
+| 🥉 | **3rd place**, national paper presentation on AIoT | Prince Shri Bhavani College of Engineering | 2021 |
+| 🎓 | **Academic Excellence Award** | Sri Sai Ram Engineering College, Anna University | 2019 |
+| 📜 | **Merit Scholarship** | Sembakkam Municipality | 2018 |
+
+<details>
+<summary><b>Certifications</b>: 10</summary>
 <br>
 
-```text
-  +---------------------------------------------+
-  |  "Physics is my favourite,                   |
-  |   Math is my queen,                          |
-  |   Programming since 2018."                   |
-  +---------------------------------------------+
-```
+- [Natural Language Processing Specialization](https://www.coursera.org/account/accomplishments/specialization/JFDNHB4YM3AR), DeepLearning.AI · Stanford, 2022
+- [Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/DEVTH7W95X9T), DeepLearning.AI, 2022
+- [Machine Learning](https://www.coursera.org/account/accomplishments/verify/Q7G4VB62HQBK), Stanford · Andrew Ng, 2022
+- [Image Super-Resolution with Autoencoders](https://www.coursera.org/account/accomplishments/verify/224HMQYX5MP6), Coursera, 2020
+- [Image Classification with TensorFlow](https://www.coursera.org/account/accomplishments/verify/W2HZ4BZDQ54H), Coursera, 2020
+- [Problem Solving](https://www.hackerrank.com/certificates/3C2D7E87403C) and [Python](https://www.hackerrank.com/certificates/8ED97EAC7704), HackerRank, 2021
+- [Programming with MATLAB](https://www.coursera.org/account/accomplishments/verify/LGLX4PLXAGQG), Vanderbilt University, 2020
+- [Git and GitHub](https://www.coursera.org/account/accomplishments/verify/EKH2UNG5RWNG), Google, 2020
+- JLPT N5 in Japanese, The Japan Foundation, 2019
+
+</details>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h06-dark.svg">
+  <img src="assets/h06-light.svg" width="100%" alt="06 / Off the clock — The rest of the signal.">
+</picture>
+
+| 🪈 Flute | ♞ Chess | 🥊 Boxing | ⛩️ Japanese |
+|:--|:--|:--|:--|
+| A bamboo flute and a lot of patience. <sub>venu · 8 holes · bamboo</sub> | The path to some title :) Past 1000 Elo, working from the 1200 plateau toward 1400. [lichess](https://lichess.org/@/Arsive02) · [chess.com](https://www.chess.com/member/arsive) | Physical combat class. | One kana at a time. Passed JLPT N5. |
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
+  <img src="assets/divider-light.svg" width="100%" alt="">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/h07-dark.svg">
+  <img src="assets/h07-light.svg" width="100%" alt="07 / Activity — Commits, integrated over time.">
+</picture>
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arsive02/Arsive02/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/Arsive02/Arsive02/output/snake-light.svg" width="100%" alt="Contribution graph being eaten by a snake">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Arsive02&hide_border=true&background=0e0d0b&stroke=2a2823&ring=2dd4bf&fire=2dd4bf&currStreakLabel=2dd4bf&sideLabels=9b958a&currStreakNum=ede8de&sideNums=ede8de&dates=9b958a">
+  <img src="https://streak-stats.demolab.com/?user=Arsive02&hide_border=true&background=f2eee6&stroke=d8d2c6&ring=0f766e&fire=0f766e&currStreakLabel=0f766e&sideLabels=6b665c&currStreakNum=16140f&sideNums=16140f&dates=6b665c" width="560" alt="GitHub streak stats">
+</picture>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6e6e73,30:424245,60:1d1d1f,100:000000&height=100&section=footer" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contact-dark.svg">
+  <img src="assets/contact-light.svg" width="100%" alt="08 / Contact — Let's build something non-trivial. One-sided surface, two-sided conversation.">
+</picture>
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0e0d0b?style=for-the-badge&logo=vercel&logoColor=2dd4bf)](https://sivakumar-portfolio-omega.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e0d0b?style=for-the-badge&logo=linkedin&logoColor=2dd4bf)](https://www.linkedin.com/in/siva-math/)
+[![Email](https://img.shields.io/badge/Email-0e0d0b?style=for-the-badge&logo=gmail&logoColor=2dd4bf)](mailto:sivakumar2ramakrishnan@gmail.com)
+[![Kaggle](https://img.shields.io/badge/Kaggle-0e0d0b?style=for-the-badge&logo=kaggle&logoColor=2dd4bf)](https://www.kaggle.com/arsiveai)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-0e0d0b?style=for-the-badge&logo=huggingface&logoColor=2dd4bf)](https://huggingface.co/Arsive)
+[![lichess](https://img.shields.io/badge/lichess-0e0d0b?style=for-the-badge&logo=lichess&logoColor=2dd4bf)](https://lichess.org/@/Arsive02)
+[![LeetCode](https://img.shields.io/badge/LeetCode-0e0d0b?style=for-the-badge&logo=leetcode&logoColor=2dd4bf)](https://leetcode.com/sivaparkour2/)
+[![Dev.to](https://img.shields.io/badge/Dev.to-0e0d0b?style=for-the-badge&logo=devdotto&logoColor=2dd4bf)](https://dev.to/arsive02)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-0e0d0b?style=for-the-badge&logo=stackoverflow&logoColor=2dd4bf)](https://stackoverflow.com/users/12125576/arsive)
+
+<sub><i>Every animation on this page is a hand-built SVG (CSS keyframes + SMIL, text set as paths from Instrument Serif and JetBrains Mono), in the style of my v3 portfolio. It respects <code>prefers-reduced-motion</code>.</i></sub>
+
+</div>
