@@ -37,14 +37,16 @@
 I am an applied AI engineer who ships agentic systems end to end, from AWS backends and SQL data models to Claude-powered multi-agent workflows that turn days of manual work into minutes. Before Ricoh I spent two years at ZOHO building a RAG system that handles 10K+ queries a day, and I finished my MS in Data Science at CU Boulder with a 4.0. I enjoy the math behind these systems as much as the products themselves.
 
 ```yaml
-name:      Sivakumar Ramakrishnan
+name:      Sivakumar Ramakrishnan   # シヴァクマール
 role:      Senior Applied AI Engineer @ Ricoh
 focus:     [multi-agent systems, RAG, LLM eval, NLP, vision, multimodal, quantum]
 education:
   - M.S. Data Science, CU Boulder           # 2024–2026 · GPA 4.00
   - B.E. Electronics & Comm., Sri Sai Ram   # 2018–2022 · GPA 3.65
 location:  Boulder, Colorado
+speaks:    [Tamil, Telugu, English, Hindi, Japanese (JLPT N5), French]
 motto:     "Physics is my favourite, math is my queen."
+mantra:    "You don't need sleep, you need answers."
 ```
 
 - 🧠 Shipped a **Claude-powered multi-agent platform** at Ricoh: an orchestrator routes each request to a Data Analyst or Service agent
@@ -107,7 +109,7 @@ motto:     "Physics is my favourite, math is my queen."
 </picture>
 
 <details open>
-<summary><b>Senior Applied AI Engineer · Ricoh</b> <sub>May 2026 → present · USA</sub></summary>
+<summary><b>Senior Applied AI Engineer · Ricoh</b> <sub>Apr 2026 → present · Boulder, CO</sub></summary>
 
 - Architected and shipped a **Claude-powered multi-agent platform**: an orchestrator routes each request to a Data Analyst agent or a Service agent that pulls maintenance documentation to help field technicians fix printers
 - Added **image support** to the Service agent, so repair steps come with the matching procedural illustrations
@@ -125,9 +127,12 @@ motto:     "Physics is my favourite, math is my queen."
 </details>
 
 <details>
-<summary><b>Research Assistant · University of Colorado Boulder</b> <sub>Sep – Oct 2024</sub></summary>
+<summary><b>University of Colorado Boulder</b>: course assistant, research, quantum computing <sub>2024 – 2026</sub></summary>
 
-- Deep-learning architectures optimised for edge devices, and depth mapping for aerial imagery ([research areas](https://praisecu.github.io/research-areas))
+- **Course Assistant, Statistical Methods & Applications II** (STAT 4010/5010, Jan – Apr 2026)
+- **Course Assistant, Statistical Methods & Applications I** (STAT 4000/5000, Aug – Dec 2025): assessment, feedback and consistent grading for undergraduate and graduate students
+- **Quantum Computing Research Group** (volunteer, Feb – Apr 2025): fundamentals of quantum computing and quantum algorithms
+- **Research Assistant** (Sep – Oct 2024): deep-learning architectures optimised for edge devices, and depth mapping for aerial imagery ([research areas](https://praisecu.github.io/research-areas))
 
 </details>
 
@@ -135,7 +140,8 @@ motto:     "Physics is my favourite, math is my queen."
 <summary><b>Data Scientist, R&amp;D · ZOHO</b> <sub>May 2022 – Jul 2024 · Chennai (trainee and intern from 2021)</sub></summary>
 
 - Architected a **RAG system serving 10K+ queries a day**, cutting response latency by 20% and hallucinations by 35% with hybrid retriever and reranker fusion on vLLM
-- Built customer-assistance AI with PyTorch and Transformers: phishing detection at 90% accuracy and a resume parser handling 2K+ resumes a month
+- Built customer-assistance AI with PyTorch and Transformers: predicting which kind of help a customer needs from their support conversation, phishing detection at 90% accuracy, and a resume parser handling 2K+ resumes a month
+- Root-cause analysis of negative customer email threads to find what drives churn
 - Generative features for FAQ generation, reply drafting and summarisation; foundational multimodal research; mentored interns into full-time hires
 
 </details>
@@ -146,8 +152,13 @@ motto:     "Physics is my favourite, math is my queen."
 - **President, Indian Classical Music Society, CU Boulder** (Dec 2024 → present): founded the first recognised society for Indian classical music at CU Boulder and grew it from 3 to 20+ members
 - **Student Research Lead, Team LMES** (2019–2022): autonomous ground vehicle with lane and object detection on a Raspberry Pi and Jetson Nano
 - **Intern, Siemens Healthineers** (2021): prototyped a CNN to flag abnormal CT scans for faster radiologist review
+- **Intern, MIT Square** (2020): smart water purifier project with a data-driven chatbot
 
 </details>
+
+> *"He quickly became our go-to person for anything related to NLP research and development, especially in areas like Retrieval-Augmented Generation (RAG) and Generative Large Language Models (LLMs)."*
+>
+> <sub>Arul Vendhan, NLP Engineer at Zoho, who managed Siva directly · <a href="https://www.linkedin.com/in/siva-math/details/recommendations/">LinkedIn recommendation</a></sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg">
