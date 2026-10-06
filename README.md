@@ -45,7 +45,7 @@ education:
   - B.E. Electronics & Comm., Sri Sai Ram   # 2018–2022 · GPA 3.65
 location:  Boulder, Colorado
 speaks:    [Tamil, Telugu, English, Hindi, Japanese (JLPT N5), French]
-motto:     "Physics is my favourite, math is my queen."
+motto:     "Physics is my favourite, math is my queen, Programming since 2018."
 mantra:    "You don't need sleep, you need answers."
 ```
 
